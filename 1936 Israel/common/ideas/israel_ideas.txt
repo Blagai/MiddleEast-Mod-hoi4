@@ -1,0 +1,56 @@
+ideas = {
+	mobilization_laws = {
+}
+	economy = {
+}
+	political_advisor = {
+		avshalom_yehuda = {
+			allowed = {
+				tag = ISR
+			}
+			traits = { autocratic_imperialist anti_communist}
+			picture = "XuvAMcWl-1"
+		}
+		gil_avrahamovich = {
+			allowed = {
+				tag = ISR
+			}
+			traits = { great_survivor}
+			picture = "nRQvXlsI-1"
+		}
+		meir_dov = {
+			allowed = {
+				tag = ISR
+			}
+			traits = { appeaser}
+			picture = "fBREeySi-1"
+		}
+		noam_green = {
+			allowed = {
+				tag = ISR
+			}
+			traits = { anarchist_zeal}
+			picture = "xkbUGyeZ-1"
+		}
+}
+	tank_manufacturer = {
+}
+	naval_manufacturer = {
+}
+	aircraft_manufacturer = {
+}
+	materiel_manufacturer = {
+}
+	industrial_concern = {
+}
+	theorist = {
+}
+	army_chief = {
+}
+	navy_chief = {
+}
+	air_chief = {
+}
+	high_command = {
+}
+}

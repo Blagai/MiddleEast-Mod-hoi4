@@ -1,0 +1,18 @@
+ISR = {
+	male = {
+		names = {
+			"David" "Chloe" "Daniel" "Ori" "Neta" "Avraham" 
+		}
+	}
+	female = {
+		names = {
+			"Chloe" "Ariela" "Daniela" "Daniel" "Neta" 
+		}
+	}
+	surnames = {
+		"" 
+	}
+	callsigns = {
+		"" 
+	}
+}
