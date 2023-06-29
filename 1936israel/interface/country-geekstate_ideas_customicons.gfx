@@ -1,9 +1,0 @@
-spriteTypes = { 
-	##Icon For: Niv Lovegood
-	SpriteType = { 
-		name = "kAdMwYfO-1"
-		texturefile = "gfx/interface/ideas/GEE/kAdMwYfO-1.dds"
-	}
-
- 
- }
