@@ -1,0 +1,16 @@
+GEE_DIV_0_0 = {	name = "Infantry division"
+	for_countries = { GEE }
+	can_use = { always = yes }
+	division_types = { 
+		"infantry" "artillery_brigade" }
+	}
+	fallback_name = "%d. Infantry division"
+}
+GEE_DIV_1_0 = {	name = "Cavalry division"
+	for_countries = { GEE }
+	can_use = { always = yes }
+	division_types = { 
+		"cavalry" }
+	}
+	fallback_name = "%d. Cavalry division"
+}

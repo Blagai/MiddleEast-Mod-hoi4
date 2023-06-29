@@ -1,0 +1,86 @@
+characters = {
+#Create country leader - Joseph Gremoir
+joseph_gremoir = {
+	name = joseph_gremoir
+	portraits = {
+		civilian = {
+			#Custom image for Joseph Gremoir
+			large = "/gfx/leaders/GEE/qJsrDzNm-1.dds"
+		}
+	}
+	country_leader = {
+		expire = "1965.10.06"
+		ideology = despotism
+		traits = {  }
+	}
+}
+
+#Create country leader - Chloe Kaldwin
+chloe_kaldwin = {
+	name = chloe_kaldwin
+	portraits = {
+		civilian = {
+			#Custom image for Chloe Kaldwin
+			large = "/gfx/leaders/GEE/EjyeiXsD-1.dds"
+		}
+	}
+	country_leader = {
+		expire = "1955.04.13"
+		ideology = anarchist_communism
+		traits = {  champion_of_peace_5 }
+	}
+}
+
+#Create country leader - Lucinda Lovegood
+lucinda_lovegood = {
+	name = lucinda_lovegood
+	portraits = {
+		civilian = {
+			#Custom image for Lucinda Lovegood
+			large = "/gfx/leaders/GEE/qmxipIkF-1.dds"
+		}
+	}
+	country_leader = {
+		expire = "1940.12.03"
+		ideology = nazism
+		traits = {  dictator }
+	}
+}
+
+#Create country leader - Michael Miller
+michael_miller = {
+	name = michael_miller
+	portraits = {
+		civilian = {
+			#Custom image for Michael Miller
+			large = "/gfx/leaders/GEE/UOgZiWVG-1.dds"
+		}
+	}
+	country_leader = {
+		expire = "1960.09.13"
+		ideology = conservatism
+		traits = {  champion_of_peace_3 }
+	}
+}
+
+#Create military leader - Bees
+	bees = {
+		name = "bees"
+		portraits = {
+			army = {
+				#Custom images for Bees
+				large = "/gfx/leaders/GEE/bees-1.dds"
+				small = "/gfx/interface/ideas/GEE/bees-1.dds"
+			}
+		}
+		corps_commander = {
+			traits = { brilliant_strategist infantry_officer }
+			skill = 1
+			attack_skill = 1
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 1
+		legacy_id = 177355460
+		}
+	}
+}

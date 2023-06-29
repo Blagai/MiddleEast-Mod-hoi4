@@ -1,0 +1,17 @@
+characters = {	niv_lovegood = {
+		name = niv_lovegood
+		portraits = {
+			army = {
+			small = "gfx/interface/ideas/GEE/kAdMwYfO-1.dds"
+			}
+		}
+		advisor = {
+			slot = political_advisor
+			idea_token = niv_lovegood
+			allowed = {
+				original_tag = GEE
+			}
+			traits = { liberal_democratic_paragon}
+		}
+	}
+}

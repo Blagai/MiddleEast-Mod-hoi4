@@ -1,0 +1,131 @@
+add_namespace = establishment_of_geekstate
+
+#Country of Geekstate established in Puerto Rico
+country_event = {
+	id = establishment_of_geekstate.1
+	title = establishment_of_geekstate.1.t
+	desc = establishment_of_geekstate.1.d
+
+	picture = country_of_geekstate_established_in_puerto_rico-1
+	fire_only_once = yes
+	is_triggered_only = yes
+	trigger = {
+		
+
+
+	}
+	option = {
+		name = establishment_of_geekstate.1.a
+		trigger = {
+			
+		}
+		ai_chance = { factor = 1 }
+		add_stability = 0.2
+
+
+set_popularities = {
+	democratic = 35
+	neutrality = 10
+	fascism = 25
+	communism = 30
+}
+
+
+
+add_opinion_modifier = {
+    target = USA
+    modifier = large_increase
+}
+
+
+
+		hidden_effect = {
+			create_unit = {
+    division = "name = \"Infantry Division\" division_template = \"Infantry division\" start_experience_factor = 0.5 start_equipment_factor = 0.5"
+    owner = GEE
+}create_unit = {
+    division = "name = \"Infantry Division\" division_template = \"Infantry division\" start_experience_factor = 0.5 start_equipment_factor = 0.5"
+    owner = GEE
+}create_unit = {
+    division = "name = \"Cavalry Division\" division_template = \"Cavalry division\" start_experience_factor = 0.5 start_equipment_factor = 0.5"
+    owner = GEE
+}
+
+random_owned_controlled_state = {
+limit = {
+free_building_slots = {
+building = industrial_complex
+size > 0
+include_locked = yes
+}
+}
+add_extra_state_shared_building_slots = 1
+add_building_construction = {
+type = industrial_complex
+level = 1
+instant_build = yes
+}
+set_state_flag = REPLACE_ME_WITH_UNIQUE_IDENTIFIER
+}
+
+random_owned_controlled_state = {
+limit = {
+free_building_slots = {
+building = arms_factory
+size > 0
+include_locked = yes
+}
+}
+add_extra_state_shared_building_slots = 1
+add_building_construction = {
+type = arms_factory
+level = 1
+instant_build = yes
+}
+set_state_flag = REPLACE_ME_WITH_UNIQUE_IDENTIFIER
+}
+
+random_owned_controlled_state = {
+limit = {
+free_building_slots = {
+building = dockyard
+size > 0
+include_locked = yes
+}
+}
+add_extra_state_shared_building_slots = 1
+add_building_construction = {
+type = dockyard
+level = 1
+instant_build = yes
+}
+set_state_flag = REPLACE_ME_WITH_UNIQUE_IDENTIFIER
+}
+
+
+		}
+	}
+}
+
+#Country of Geekstate established in Puerto Rico
+news_event = {
+	id = establishment_of_geekstate.2
+	title = establishment_of_geekstate.2.t
+	desc = establishment_of_geekstate.2.d
+
+	picture = JixyVbCk-1
+	fire_only_once = yes
+	is_triggered_only = yes
+	major = yes
+	option = {
+		name = establishment_of_geekstate.2.a
+		trigger = {
+			
+		}
+		ai_chance = { factor = 1 }
+		
+		hidden_effect = {
+			
+		}
+	}
+}
