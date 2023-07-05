@@ -1,0 +1,22 @@
+state={
+	id=909
+	name="STATE_909"
+	
+	history={
+		owner = ISR
+		
+		add_core_of = PAL
+		add_core_of = ISR
+		
+		victory_points = {
+			1086 15
+		}
+	}
+	
+	provinces={
+		1086 
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}
