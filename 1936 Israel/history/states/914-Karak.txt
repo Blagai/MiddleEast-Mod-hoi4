@@ -1,8 +1,15 @@
 state={
-	id=916
-	name="STATE_916"
+	id=914
+	name="STATE_914"
+	
+	history={
+		owner = JOR
+		
+		add_core_of = JOR
+	}
+	
 	provinces={
-		7170 
+		7151 
 	}
 	manpower=0
 	buildings_max_level_factor=1.000

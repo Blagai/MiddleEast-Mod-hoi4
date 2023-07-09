@@ -1,7 +1,7 @@
 state={
-	id=910
-	name="STATE_910"
-
+	id=920
+	name="STATE_920"
+	
 	history={
 		owner = ISR
 		
@@ -9,12 +9,12 @@ state={
 		add_core_of = ISR
 		
 		victory_points = {
-			1065 3
+			7107 3
 		}
 	}
-
+	
 	provinces={
-		1065 
+		7107 
 	}
 	manpower=0
 	buildings_max_level_factor=1.000

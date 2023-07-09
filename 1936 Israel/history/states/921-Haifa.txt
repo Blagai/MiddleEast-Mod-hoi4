@@ -1,8 +1,20 @@
 state={
 	id=921
 	name="STATE_921"
+	
+	history={
+		owner = ISR
+		
+		add_core_of = PAL
+		add_core_of = ISR
+		
+		victory_points = {
+		1201 5
+		}
+	}
+	
 	provinces={
-		7107 
+		1201 
 	}
 	manpower=0
 	buildings_max_level_factor=1.000

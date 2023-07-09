@@ -1,6 +1,22 @@
 state={
 	id=911
 	name="STATE_911"
+	
+	history={
+		owner = ISR
+		
+		add_core_of = PAL
+		add_core_of = ISR
+		
+		victory_points = {
+			1015 1
+		}
+		
+		victory_points = {
+			11970 3
+		}
+	}
+	
 	provinces={
 		1015 7176 11970 
 	}
