@@ -11,12 +11,16 @@ state={
 		victory_points = {
 			7107 3
 		}
+		
+		buildings = {
+			infrastructure = 1
+		}
 	}
 	
 	provinces={
 		7107 
 	}
-	manpower=0
+	manpower=15000
 	buildings_max_level_factor=1.000
 	local_supplies=0.000
 }

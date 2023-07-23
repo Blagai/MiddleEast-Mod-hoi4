@@ -1,6 +1,7 @@
 state={
 	id=909
 	name="STATE_909"
+	state_category = city
 	
 	history={
 		owner = ISR
@@ -11,12 +12,24 @@ state={
 		victory_points = {
 			1086 15
 		}
+		
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+			air_base = 2
+			1086 = {
+				supply_node = 1
+				bunker = 4
+			}
+		}
 	}
 	
 	provinces={
 		1086 
 	}
-	manpower=0
+	
+	
+	manpower=60000
 	buildings_max_level_factor=1.000
 	local_supplies=0.000
 }
