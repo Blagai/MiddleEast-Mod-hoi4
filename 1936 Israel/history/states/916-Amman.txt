@@ -6,12 +6,19 @@ state={
 		owner = JOR
 		
 		add_core_of = JOR
+		
+		buildings = {
+			infrastructure = 1
+			arms_factory = 3
+			industrial_complex = 2
+			air_base = 3
+		}
 	}
 	
 	provinces={
 		4574 7001 
 	}
-	manpower=0
+	manpower=17000
 	buildings_max_level_factor=1.000
 	local_supplies=0.000
 }
