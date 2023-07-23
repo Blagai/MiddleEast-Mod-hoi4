@@ -1,0 +1,18 @@
+First Beta:
+
+1. Finish Jordan States
+2. Israel Focus Tree
+3. Israel Events and Decisions
+
+Second Beta:
+1. Create Middle East Countries States 
+2. Improve States
+3. Jordan Focus Tree
+4. Lebanon Focus Tree
+5. Syria Focus Tree
+
+Third Beta:
+1. Jordan Events and Decisions
+2. Egypt Focus Tree
+3. Iraq Focus Tree
+4. Finish-up Israel Rework
