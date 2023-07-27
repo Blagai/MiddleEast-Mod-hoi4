@@ -1,6 +1,7 @@
 state={
 	id=923
 	name="STATE_923"
+	state_category = town
 	
 	history={
 		owner = ISR
@@ -25,7 +26,7 @@ state={
 	provinces={
 		1015 
 	}
-	manpower=0
+	manpower=14000
 	buildings_max_level_factor=1.000
 	local_supplies=0.000
 }

@@ -53,8 +53,3 @@ recruit_character = hashim_kheir
 recruit_character = saeed_ahmadi
 recruit_character = fuadnassar
 
-recruit_character = abdullah_bin_alhussein
-recruit_character = hashim_kheir
-recruit_character = saeed_ahmadi
-recruit_character = fuadnassar
-

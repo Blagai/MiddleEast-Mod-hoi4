@@ -1,6 +1,7 @@
 state={
 	id=921
 	name="STATE_921"
+	state_category = large_city
 	
 	history={
 		owner = ISR

@@ -1,13 +1,13 @@
 ISR = {
 	male = {
 		names = {
-			"David" "Chloe" "Daniel" "Ori" "Neta" "Avraham" 
+			"David" "Daniel" "Ori" "Neta" "Avraham" "Ariel"
 		}
 	}
 	female = {
 		names = {
-			"Chloe" "Ariela" "Daniela" "Daniel" "Neta" 
-		}
+			"Ariela" "Daniela" "Daniel" "Neta" "Ariel"
+		} 
 	}
 	surnames = {
 		"" 

@@ -1,3 +1,5 @@
+Fix duplicate country tag bug!
+
 First Beta:
 
 1. Finish Jordan States

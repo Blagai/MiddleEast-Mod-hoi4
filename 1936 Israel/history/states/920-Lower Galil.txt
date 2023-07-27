@@ -1,6 +1,7 @@
 state={
 	id=920
 	name="STATE_920"
+	state_category = rural
 	
 	history={
 		owner = ISR

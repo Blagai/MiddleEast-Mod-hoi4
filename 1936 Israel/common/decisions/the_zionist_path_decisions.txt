@@ -164,8 +164,7 @@ add_manpower = 50000
 		days_remove = 14
 		days_re_enable = 60
 		complete_effect = {
-			set_resistance = 2
-
+			
 		}
 	}
 }
