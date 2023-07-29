@@ -10,7 +10,7 @@ fuadnassar = {
 	}
 	country_leader = {
 		expire = "1965.1.1"
-		ideology = communism
+		ideology = marxism
 	}
 }
 
@@ -25,7 +25,7 @@ saeed_ahmadi = {
 	}
 	country_leader = {
 		expire = "1965.1.1"
-		ideology = fascism
+		ideology = fascism_ideology
 	}
 }
 
@@ -40,7 +40,7 @@ hashim_kheir = {
 	}
 	country_leader = {
 		expire = "1965.1.1"
-		ideology = democratic
+		ideology = conservatism
 	}
 }
 
@@ -55,7 +55,7 @@ abdullah_bin_alhussein = {
 	}
 	country_leader = {
 		expire = "1965.1.1"
-		ideology = neutrality
+		ideology = despotism
 	}
 }
 }
