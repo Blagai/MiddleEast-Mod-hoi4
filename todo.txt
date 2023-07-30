@@ -1,4 +1,4 @@
-Fix duplicate country tag bug!
+FIX CRASHING FOR UNKNOWN REASON
 
 First Beta:
 
