@@ -1,5 +1,3 @@
-FIX CRASHING FOR UNKNOWN REASON
-
 First Beta:
 
 1. Finish Jordan States
