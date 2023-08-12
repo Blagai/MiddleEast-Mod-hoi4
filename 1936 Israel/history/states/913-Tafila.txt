@@ -15,12 +15,16 @@ state={
 				bunker = 2
 			}
 		}
+		
+		victory_points = {
+			10089 1
+		}
 	}
 	
 	provinces={
 		10089 
 	}
-	manpower=35000
+	manpower=7000
 	buildings_max_level_factor=1.000
 	local_supplies=0.000
 }

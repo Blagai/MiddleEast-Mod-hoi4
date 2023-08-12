@@ -15,12 +15,16 @@ state={
 			air_base = 2
 			
 		}
+		
+		victory_points = {
+			4115 2
+		}
 	}
 	
 	provinces={
 		4017 4115 
 	}
-	manpower=50000
+	manpower=13000
 	buildings_max_level_factor=1.000
 	local_supplies=0.000
 }

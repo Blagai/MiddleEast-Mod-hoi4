@@ -9,14 +9,19 @@ state={
 		add_core_of = JOR
 		
 		buildings = {
-			infrastructure = 1
+			infrastructure = 2
+			arms_factory = 1
+		}
+		
+		victory_points = {
+			4440 5
 		}
 	}
 	
 	provinces={
 		4440 
 	}
-	manpower=39000
+	manpower=56000
 	buildings_max_level_factor=1.000
 	local_supplies=0.000
 }
