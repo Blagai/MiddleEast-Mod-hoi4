@@ -5,7 +5,7 @@ meir_david_kahana = {
 	portraits = {
 		civilian = {
 			#Custom image for Meir David Kahana
-			large = "/gfx/leaders/ISR/vUCBjpoE-1.dds"
+			large = "/gfx/leaders/ISR/hGiOWfjX-1.dds"
 		}
 	}
 	country_leader = {
@@ -21,7 +21,7 @@ meir_wilner = {
 	portraits = {
 		civilian = {
 			#Custom image for Meir Wilner
-			large = "/gfx/leaders/ISR/SWEzQfgB-1.dds"
+			large = "/gfx/leaders/ISR/YAqrTabe-1.dds"
 		}
 	}
 	country_leader = {
@@ -37,7 +37,7 @@ david_bengurion = {
 	portraits = {
 		civilian = {
 			#Custom image for David Ben-Gurion
-			large = "/gfx/leaders/ISR/upARcLJe-1.dds"
+			large = "/gfx/leaders/ISR/lFMViGEv-1.dds"
 		}
 	}
 	country_leader = {
@@ -64,7 +64,7 @@ david_bengurion = {
 			defense_skill = 1
 			planning_skill = 1
 			logistics_skill = 1
-		legacy_id = 194452510
+		legacy_id = 171452510
 		}
 	}
 
@@ -85,7 +85,7 @@ david_bengurion = {
 			defense_skill = 1
 			planning_skill = 1
 			logistics_skill = 1
-		legacy_id = 194452511
+		legacy_id = 171452511
 		}
 	}
 
@@ -105,7 +105,7 @@ david_bengurion = {
 			defense_skill = 1
 			maneuvering_skill = 1
 			coordination_skill = 1
-			legacy_id = 394452510
+			legacy_id = 371452510
 		}
 	}
 }

@@ -347,6 +347,12 @@ LEB = {
 	color = rgb { 130  150  60 }
 	color_ui = rgb { 130  150  60 }
 }
+
+JOR = {
+	color = rgb { 111  55  78 }
+	color_ui = rgb { 111  55  78 }
+}
+
 SYR = {
 	color = rgb { 100  100  150 }
 	color_ui = rgb { 100  100  150 }
@@ -460,6 +466,10 @@ DDR = {
 KOR = {
 	color = rgb { 255  240  195 }
 	color_ui = rgb { 255 248 229 }	
+}
+ISR = {
+	color = rgb { 152  130  191 }
+	color_ui = rgb { 152  130  191 }
 }
 CSA = {
 	color = rgb { 145 163 176  }
@@ -812,6 +822,6 @@ ISR = {
 	color_ui = rgb { 9 0 0 }
 }
 JOR = {
-	color = rgb { 111 0 55 }
-	color_ui = rgb { 111 0 55 }
+	color = rgb { 111  55 }
+	color_ui = rgb { 111  55 }
 }

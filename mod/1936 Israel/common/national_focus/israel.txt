@@ -1,6 +1,6 @@
 focus_tree = {
 	id = israel
-	continuous_focus_position = { x = 50 y = 1000 } 
+	continuous_focus_position = { x = 150 y = 1440 } 
 	country = {
 		factor = 0
 		modifier = {
@@ -8,4 +8,98 @@ focus_tree = {
 			tag = ISR
 		}
 	}
+	#Ask the League of Nations for our freedom
+	focus = {
+		id = ISR_ask_the_league_of_nations_for_our_freedom
+		icon = GFX_goal_unknown
+		x = 9
+		y = 0
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		completion_reward = {
+			news_event = IL_israel_events.1
+		}
+	}
+
+	#Establish the country of Israel
+	focus = {
+		id = ISR_establish_the_country_of_israel
+		icon = GFX_goal_unknown
+		x = 9
+		y = 2
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = ISR_ask_the_league_of_nations_for_our_freedom  }
+	}
+
+	#Peace negotiations with the Palestinians
+	focus = {
+		id = ISR_peace_negotiations_with_the_palestinians
+		icon = GFX_goal_unknown
+		x = 11
+		y = 3
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = ISR_establish_the_country_of_israel  }
+		mutually_exclusive = { focus = ISR_fight_for_our_existence  }
+		ai_will_do = { factor = 30 }
+	}
+
+	#Fight for our existence
+	focus = {
+		id = ISR_fight_for_our_existence
+		icon = GFX_goal_unknown
+		x = 7
+		y = 3
+		search_filters = {
+			FOCUS_FILTER_WAR_SUPPORT
+		}
+		prerequisite = { focus = ISR_establish_the_country_of_israel  }
+		mutually_exclusive = { focus = ISR_peace_negotiations_with_the_palestinians  }
+	}
+
+	#Promise Gaza to Palestine
+	focus = {
+		id = ISR_promise_gaza_to_palestine
+		icon = GFX_goal_unknown
+		x = 12
+		y = 4
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = ISR_peace_negotiations_with_the_palestinians  }
+	}
+
+	#Joint control of Jerusalem
+	focus = {
+		id = ISR_joint_control_of_jerusalem
+		icon = GFX_goal_unknown
+		x = 10
+		y = 4
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = ISR_peace_negotiations_with_the_palestinians  }
+	}
+
+	#Ask for the fighting to stop
+	focus = {
+		id = ISR_ask_for_the_fighting_to_stop
+		icon = GFX_goal_unknown
+		x = 11
+		y = 5
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = ISR_joint_control_of_jerusalem  } prerequisite = { focus = ISR_promise_gaza_to_palestine  }
+	}
+
 }

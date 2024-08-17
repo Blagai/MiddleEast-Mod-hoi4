@@ -1,8 +1,7 @@
-
 state={
-	id=454
-	name="STATE_454"
-	state_category = rural
+	id=971
+	name="STATE_971"
+	state_category = town
 
 	history={
 		owner = ISR
@@ -11,18 +10,20 @@ state={
 		add_core_of = ISR
 		
 		victory_points = {
-			1 1
+			1065 3
 		}
 		
 		buildings = {
 			infrastructure = 2
+			industrial_complex = 2
+			arms_factory = 2
 		}
 	}
 
 	provinces={
-		1 
+		1065 
 	}
-	manpower=24000
+	manpower=25000
 	buildings_max_level_factor=1.000
 	local_supplies=0.000
 }

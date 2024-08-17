@@ -1,26 +1,26 @@
 spriteTypes = { 
 	##Icon For: Avshalom Yehuda
 	SpriteType = { 
-		name = "XuvAMcWl-1"
-		texturefile = "gfx/interface/ideas/ISR/XuvAMcWl-1.dds"
+		name = "nLalEGbK-1"
+		texturefile = "gfx/interface/ideas/ISR/nLalEGbK-1.dds"
 	}
 
 	##Icon For: Gil Avrahamovich
 	SpriteType = { 
-		name = "nRQvXlsI-1"
-		texturefile = "gfx/interface/ideas/ISR/nRQvXlsI-1.dds"
+		name = "iyKYzUhQ-1"
+		texturefile = "gfx/interface/ideas/ISR/iyKYzUhQ-1.dds"
 	}
 
 	##Icon For: Meir Dov
 	SpriteType = { 
-		name = "fBREeySi-1"
-		texturefile = "gfx/interface/ideas/ISR/fBREeySi-1.dds"
+		name = "jkAReaqm-1"
+		texturefile = "gfx/interface/ideas/ISR/jkAReaqm-1.dds"
 	}
 
 	##Icon For: Noam Green
 	SpriteType = { 
-		name = "xkbUGyeZ-1"
-		texturefile = "gfx/interface/ideas/ISR/xkbUGyeZ-1.dds"
+		name = "RMVELCTA-1"
+		texturefile = "gfx/interface/ideas/ISR/RMVELCTA-1.dds"
 	}
 
  

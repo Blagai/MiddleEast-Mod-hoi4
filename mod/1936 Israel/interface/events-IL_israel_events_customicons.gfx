@@ -1,0 +1,9 @@
+spriteTypes = { 
+	##Icon For: Vote passed!
+	SpriteType = { 
+		name = "IL_vote_passed-1"
+		texturefile = "gfx/interface/events/israel_events-event/IL_vote_passed-1.dds"
+	}
+
+ 
+ }

@@ -1,0 +1,2 @@
+ISR = "countries/Israel.txt"
+JOR = "countries/Jordan.txt"

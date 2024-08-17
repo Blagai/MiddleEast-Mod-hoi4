@@ -1,6 +1,6 @@
 state={
-	id=912
-	name="STATE_912"
+	id=977
+	name="STATE_977"
 	state_category = large_city
 	
 	history={
@@ -8,22 +8,26 @@ state={
 		
 		add_core_of = JOR
 		
-		buildings = {
-			infrastructure = 1
-			industrial_complex = 2
-			arms_factory = 3
-			fuel_silo = 3
+		victory_points = {
+			4574 15
 		}
 		
-		victory_points = {
-			4591 1
+		buildings = {
+			infrastructure = 1
+			arms_factory = 3
+			industrial_complex = 2
+			air_base = 3
+			
+			7001 = {
+				supply_node = 1
+			}
 		}
 	}
 	
 	provinces={
-		4562 4591 4603 11976 
+		4574 7001 
 	}
-	manpower=10000
+	manpower=115000
 	buildings_max_level_factor=1.000
 	local_supplies=0.000
 }

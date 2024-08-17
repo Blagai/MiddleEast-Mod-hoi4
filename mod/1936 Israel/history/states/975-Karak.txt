@@ -1,7 +1,7 @@
 state={
-	id=915
-	name="STATE_915"
-	state_category = large_city
+	id=975
+	name="STATE_975"
+	state_category = city
 	
 	history={
 		owner = JOR
@@ -9,23 +9,24 @@ state={
 		add_core_of = JOR
 		
 		buildings = {
-			infrastructure = 2
-			air_base = 3
-			arms_factory = 2
-			7170 = {
+			infrastructure = 1
+			arms_factory = 1
+			air_base = 2
+			
+			7151 = {
 				supply_node = 1
 			}
 		}
 		
 		victory_points = {
-			7170 10
+			7151 3
 		}
 	}
 	
 	provinces={
-		7170 
+		7151 
 	}
-	manpower=100000
+	manpower=20000
 	buildings_max_level_factor=1.000
 	local_supplies=0.000
 }

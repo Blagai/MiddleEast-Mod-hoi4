@@ -2,7 +2,7 @@ characters = {	avshalom_yehuda = {
 		name = avshalom_yehuda
 		portraits = {
 			army = {
-			small = "gfx/interface/ideas/ISR/XuvAMcWl-1.dds"
+			small = "gfx/interface/ideas/ISR/nLalEGbK-1.dds"
 			}
 		}
 		advisor = {
@@ -18,7 +18,7 @@ characters = {	avshalom_yehuda = {
 		name = gil_avrahamovich
 		portraits = {
 			army = {
-			small = "gfx/interface/ideas/ISR/nRQvXlsI-1.dds"
+			small = "gfx/interface/ideas/ISR/iyKYzUhQ-1.dds"
 			}
 		}
 		advisor = {
@@ -34,7 +34,7 @@ characters = {	avshalom_yehuda = {
 		name = meir_dov
 		portraits = {
 			army = {
-			small = "gfx/interface/ideas/ISR/fBREeySi-1.dds"
+			small = "gfx/interface/ideas/ISR/jkAReaqm-1.dds"
 			}
 		}
 		advisor = {
@@ -50,7 +50,7 @@ characters = {	avshalom_yehuda = {
 		name = noam_green
 		portraits = {
 			army = {
-			small = "gfx/interface/ideas/ISR/xkbUGyeZ-1.dds"
+			small = "gfx/interface/ideas/ISR/RMVELCTA-1.dds"
 			}
 		}
 		advisor = {

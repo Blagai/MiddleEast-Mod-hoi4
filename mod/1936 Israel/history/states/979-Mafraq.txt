@@ -1,6 +1,6 @@
 state={
-	id=455
-	name="STATE_455"
+	id=979
+	name="STATE_979"
 	state_category = rural
 	
 	history={
@@ -10,21 +10,18 @@ state={
 		
 		buildings = {
 			infrastructure = 2
-			industrial_complex = 1
 			arms_factory = 1
-			air_base = 2
-			
 		}
 		
 		victory_points = {
-			4115 2
+			4440 5
 		}
 	}
 	
 	provinces={
-		4017 4115 
+		4440 
 	}
-	manpower=13000
+	manpower=56000
 	buildings_max_level_factor=1.000
 	local_supplies=0.000
 }

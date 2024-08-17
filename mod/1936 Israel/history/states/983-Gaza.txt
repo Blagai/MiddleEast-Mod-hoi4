@@ -1,6 +1,6 @@
 state={
-	id=909
-	name="STATE_909"
+	id=983
+	name="STATE_983"
 	state_category = city
 	
 	history={
@@ -10,26 +10,21 @@ state={
 		add_core_of = ISR
 		
 		victory_points = {
-			1086 15
+			4088 1
 		}
 		
 		buildings = {
-			infrastructure = 3
+			infrastructure = 1
 			industrial_complex = 1
-			air_base = 2
-			1086 = {
-				supply_node = 1
-				bunker = 4
-			}
+			dockyard = 2
+			fuel_silo = 3
 		}
 	}
 	
 	provinces={
-		1086 
+		4088 
 	}
-	
-	
-	manpower=60000
+	manpower=26000
 	buildings_max_level_factor=1.000
 	local_supplies=0.000
 }

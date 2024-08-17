@@ -5,7 +5,7 @@ fuadnassar = {
 	portraits = {
 		civilian = {
 			#Custom image for Fu'ad Nassar
-			large = "/gfx/leaders/JOR/vUqYXslb-1.dds"
+			large = "/gfx/leaders/JOR/wsTzECDl-1.dds"
 		}
 	}
 	country_leader = {
@@ -20,7 +20,7 @@ saeed_ahmadi = {
 	portraits = {
 		civilian = {
 			#Custom image for Saeed Ahmadi
-			large = "/gfx/leaders/JOR/qMTXJbRk-1.dds"
+			large = "/gfx/leaders/JOR/zbcwUZLr-1.dds"
 		}
 	}
 	country_leader = {
@@ -35,12 +35,12 @@ hashim_kheir = {
 	portraits = {
 		civilian = {
 			#Custom image for Hashim Kheir
-			large = "/gfx/leaders/JOR/PfsMCcUX-1.dds"
+			large = "/gfx/leaders/JOR/YZVsWiNT-1.dds"
 		}
 	}
 	country_leader = {
 		expire = "1965.1.1"
-		ideology = conservatism
+		ideology = liberalism
 	}
 }
 
@@ -50,7 +50,7 @@ abdullah_bin_alhussein = {
 	portraits = {
 		civilian = {
 			#Custom image for Abdullah bin al-Hussein
-			large = "/gfx/leaders/JOR/DGKLnTqF-1.dds"
+			large = "/gfx/leaders/JOR/kDPdMRJx-1.dds"
 		}
 	}
 	country_leader = {
