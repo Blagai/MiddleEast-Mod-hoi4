@@ -6,7 +6,7 @@ ISR = {
 	}
 	female = {
 		names = {
-			"Chloe" "Ariela" "Daniela" "Daniel" "Neta" 
+			"Ariela" "Daniela" "Daniel" "Neta" 
 		}
 	}
 	surnames = {

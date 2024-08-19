@@ -99,7 +99,10 @@ focus_tree = {
 		search_filters = {
 			FOCUS_FILTER_POLITICAL
 		}
-		prerequisite = { focus = ISR_joint_control_of_jerusalem  } prerequisite = { focus = ISR_promise_gaza_to_palestine  }
+		prerequisite = { 
+		focus = ISR_joint_control_of_jerusalem
+		focus = ISR_promise_gaza_to_palestine		
+		}
 	}
 
 }

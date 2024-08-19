@@ -822,6 +822,6 @@ ISR = {
 	color_ui = rgb { 9 0 0 }
 }
 JOR = {
-	color = rgb { 111  55 }
-	color_ui = rgb { 111  55 }
+	color = rgb { 111 0 55 }
+	color_ui = rgb { 111 0 55 }
 }
