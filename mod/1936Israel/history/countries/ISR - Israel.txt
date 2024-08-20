@@ -1,24 +1,38 @@
-﻿oob = "ISR_1936"
+﻿# Initial country settings for Israel
+oob = "ISR_1936"
 capital = 454
 set_research_slots = 3
 set_stability = 0.3
 set_war_support = 0.2
 set_convoys = 8
 
+# Grant military access to the UK
 give_military_access = ENG
 
-add_ideas = {
-	limited_conscription
-	civilian_economy
+# Make Israel a puppet of the UK
+ENG = {
+	if = {
+		limit = {
+			has_dlc = "Together for Victory"
+		}
+		set_autonomy = {
+			target = ISR
+			autonomous_state = autonomy_integrated_puppet
+		}
+		else = {
+			# Fallback if Together for Victory DLC is not present
+			puppet = ISR
+		}
+	}
 }
 
-#For start date 1939.1.1
+# For start date 1939.1.1
 1939.1.1 = {
 	add_political_power = 1000
 	oob = "ISR_1939"
 }
 
-#Politics for 1936.1.1
+# Politics for 1936.1.1
 set_politics = {
 	ruling_party = democratic
 	last_election = "1935.5.27"
@@ -32,7 +46,7 @@ set_popularities = {
 	neutrality = 0
 }
 
-#Politics for 1939.1.1
+# Politics for 1939.1.1
 1939.1.1 = {
 	set_popularities = {
 		democratic = 25
