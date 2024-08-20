@@ -1,10 +1,12 @@
-#Create units
 division_template = {
-	name = "Example Division"
-	division_names_group = "ISR_DIV_0_0"
-
-}
-
-#Spawn units
-units = {
+    name = "HaHagana Infantry Division"
+    regiments = {
+        infantry = { x = 0 y = 0 }
+        infantry = { x = 0 y = 1 }
+        artillery_brigade = { x = 1 y = 0 }
+        artillery_brigade = { x = 1 y = 1 }
+    }
+    support = {
+        artillery = { x = 0 y = 0 }
+    }
 }

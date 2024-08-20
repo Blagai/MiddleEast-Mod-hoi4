@@ -1,5 +1,5 @@
 ﻿oob = "ISR_1936"
-capital = 970
+capital = 454
 set_research_slots = 3
 set_stability = 0.3
 set_war_support = 0.2
@@ -10,15 +10,7 @@ give_military_access = ENG
 add_ideas = {
 	limited_conscription
 	civilian_economy
-ZIO_zionist_military
 }
-
-	recruit_character = avshalom_yehuda
-	recruit_character = gil_avrahamovich
-	recruit_character = meir_dov
-	recruit_character = noam_green
-
-
 
 #For start date 1939.1.1
 1939.1.1 = {
@@ -49,12 +41,3 @@ set_popularities = {
 		neutrality = 25
 	}
 }
-
-recruit_character = david_bengurion
-recruit_character = meir_wilner
-recruit_character = meir_david_kahana
-
-recruit_character = david_goldstein
-recruit_character = binyaminzeev
-recruit_character = yosef_cohen
-

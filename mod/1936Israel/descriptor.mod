@@ -5,4 +5,4 @@ tags={
 	"National Focuses"
 }
 name="1936 Israel"
-supported_version="1.12.*"
+supported_version="1.14.*"

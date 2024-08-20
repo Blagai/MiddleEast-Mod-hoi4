@@ -1,9 +1,0 @@
-spriteTypes = { 
-	##Icon For: Zionist Military
-	SpriteType = { 
-		name = "GFX_idea_ZIO_zionist_military-1"
-		texturefile = "gfx/interface/ideas/zionism-ideas/ZIO_zionist_military-1.dds"
-	}
-
- 
- }
