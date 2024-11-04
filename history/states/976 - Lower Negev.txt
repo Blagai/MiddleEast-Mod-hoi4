@@ -1,0 +1,26 @@
+state={
+	id=976
+	name="STATE_976" #Lower Negev
+	manpower = 283854
+	
+	state_category = rural
+
+	history={
+		owner = ISR
+		buildings = {
+			infrastructure = 1
+			industrial_complex = 0
+		}
+		victory_points = {
+			1015 1
+		}
+		add_core_of = PAL
+		add_core_of = ISR
+	}
+
+	provinces={
+		1015
+	}
+
+	local_supplies=0.0 
+}

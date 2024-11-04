@@ -1,0 +1,22 @@
+state={
+	id=980
+	name="STATE_980" #Golan Heights
+	manpower = 283854
+	
+	state_category = town
+
+	history={
+		owner = FRA
+		buildings = {
+			infrastructure = 1
+			industrial_complex = 0
+		}
+		add_core_of = SYR
+	}
+
+	provinces={
+		13364
+	}
+
+	local_supplies=0.0 
+}

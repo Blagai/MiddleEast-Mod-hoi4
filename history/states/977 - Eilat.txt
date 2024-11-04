@@ -1,0 +1,26 @@
+state={
+	id=977
+	name="STATE_977" #Upper Negev
+	manpower = 283854
+	
+	state_category = city
+
+	history={
+		owner = ISR
+		buildings = {
+			infrastructure = 1
+			industrial_complex = 0
+		}
+		victory_points = {
+			13365 10
+		}
+		add_core_of = PAL
+		add_core_of = ISR
+	}
+
+	provinces={
+		13365
+	}
+
+	local_supplies=0.0 
+}

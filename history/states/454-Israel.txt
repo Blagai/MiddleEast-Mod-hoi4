@@ -6,20 +6,20 @@ state={
 	state_category = rural
 
 	history={
-		owner = PAl
+		owner = ENG
 		buildings = {
 			infrastructure = 3 #was: 5
 			industrial_complex = 1
 		}
 		victory_points = {
-			1086 15
+			13363 15
 		}
 		add_core_of = PAL
 		add_core_of = ISR
 	}
 
 	provinces={
-		1086
+		13363
 	}
 
 	local_supplies=0.0 

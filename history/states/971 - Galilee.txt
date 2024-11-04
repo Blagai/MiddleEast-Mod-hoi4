@@ -1,0 +1,23 @@
+state={
+	id=971
+	name="STATE_971" #Galilee
+	manpower = 240583
+	
+	state_category = rural
+
+	history={
+		owner = ISR
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 0
+		}
+		add_core_of = PAL
+		add_core_of = ISR
+	}
+
+	provinces={
+		1065
+	}
+
+	local_supplies=0.0 
+}

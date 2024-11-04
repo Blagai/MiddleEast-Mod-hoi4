@@ -1,0 +1,23 @@
+state={
+	id=972
+	name="STATE_972" #Judah
+	manpower = 210523
+	
+	state_category = rural
+
+	history={
+		owner = PAL
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 0
+		}
+		add_core_of = PAL
+		add_core_of = ISR
+	}
+
+	provinces={
+		1086
+	}
+
+	local_supplies=0.0 
+}
