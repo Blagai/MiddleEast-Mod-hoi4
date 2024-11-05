@@ -1,0 +1,4 @@
+ISR.israel_freedom_event_yes_count = 0
+ISR.israel_freedom_event_no_count = 0
+ISR.israel_freedom_passed = 0
+ISR.israel_rebellion_succeeded = 0

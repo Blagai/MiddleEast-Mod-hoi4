@@ -1,6 +1,6 @@
 focus_tree = {
 	id = israel
-	continuous_focus_position = { x = 150 y = 1440 } 
+	continuous_focus_position = { x = 50 y = 1500 } 
 	country = {
 		factor = 0
 		modifier = {
@@ -12,14 +12,42 @@ focus_tree = {
 	focus = {
 		id = ISR_ask_the_league_of_nations_for_our_freedom
 		icon = GFX_goal_unknown
-		x = 9
+		x = 28
 		y = 0
-		cost = 5
+		cost = 2
 		search_filters = {
 			FOCUS_FILTER_POLITICAL
 		}
+		select_effect = {
+			FRA = { country_event = { id = israel_event.1 } }
+			ENG = { country_event = { id = israel_event.1 } }
+			USA = { country_event = { id = israel_event.1 } }
+			ITA = { country_event = { id = israel_event.1 } }
+			BEL = { country_event = { id = israel_event.1 } }
+			HOL = { country_event = { id = israel_event.1 } }
+			POL = { country_event = { id = israel_event.1 } }
+		}
 		completion_reward = {
-			news_event = IL_israel_events.1
+			if = {
+				limit = {
+					check_variable = {
+						var = israel_freedom_event_yes_count
+						value = 3
+						compare = greater_than
+					} 
+				}
+				add_ideas = israel_freedom_vote_passed
+			}
+			else_if = {
+				limit = {
+					check_variable = {
+						var = israel_freedom_event_yes_count
+						value = 4
+						compare = less_than
+					} 
+				}
+				add_ideas = israel_growing_rebellion
+			}
 		}
 	}
 
@@ -27,30 +55,54 @@ focus_tree = {
 	focus = {
 		id = ISR_establish_the_country_of_israel
 		icon = GFX_goal_unknown
-		x = 9
+		x = 28
 		y = 2
-		cost = 10
+		cost = 5
 		search_filters = {
 			FOCUS_FILTER_POLITICAL
 		}
 		prerequisite = { focus = ISR_ask_the_league_of_nations_for_our_freedom }
+		available = {
+			OR = {
+				has_idea = israel_freedom_vote_passed
+				has_idea = israel_rebellion_successful
+			}
+		}
 		completion_reward = {
 			ENG = {
 				set_autonomy = {
 					target = ISR
 					autonomous_state = autonomy_free
 				}
+				set_autonomy = {
+					target = PAL
+					autonomous_state = autonomy_free
+				}
 			}
+			
 			leave_faction = yes
-			# Code to start war with Palestine, with each country having specific states.
+			PAL = {
+				leave_faction = yes
+			}
+			
+			remove_ideas = israel_freedom_vote_passed
+			remove_ideas = israel_rebellion_successful
+			
+			PAL = {
+				declare_war_on = {
+					target = ISR
+					type = annex_everything
+				}
+			}
 		}
+		will_lead_to_war_with = PAL
 	}
 
 	# Peace negotiations with the Palestinians
 	focus = {
 		id = ISR_peace_negotiations_with_the_palestinians
 		icon = GFX_goal_unknown
-		x = 11
+		x = 30
 		y = 3
 		cost = 10
 		search_filters = {
@@ -65,53 +117,12 @@ focus_tree = {
 	focus = {
 		id = ISR_fight_for_our_existence
 		icon = GFX_goal_unknown
-		x = 7
+		x = 26
 		y = 3
 		search_filters = {
 			FOCUS_FILTER_WAR_SUPPORT
 		}
 		prerequisite = { focus = ISR_establish_the_country_of_israel }
 		mutually_exclusive = { focus = ISR_peace_negotiations_with_the_palestinians }
-	}
-
-	# Promise Gaza to Palestine
-	focus = {
-		id = ISR_promise_gaza_to_palestine
-		icon = GFX_goal_unknown
-		x = 12
-		y = 4
-		cost = 10
-		search_filters = {
-			FOCUS_FILTER_POLITICAL
-		}
-		prerequisite = { focus = ISR_peace_negotiations_with_the_palestinians }
-	}
-
-	# Joint control of Jerusalem
-	focus = {
-		id = ISR_joint_control_of_jerusalem
-		icon = GFX_goal_unknown
-		x = 10
-		y = 4
-		search_filters = {
-			FOCUS_FILTER_POLITICAL
-		}
-		prerequisite = { focus = ISR_peace_negotiations_with_the_palestinians }
-	}
-
-	# Ask for the fighting to stop
-	focus = {
-		id = ISR_ask_for_the_fighting_to_stop
-		icon = GFX_goal_unknown
-		x = 11
-		y = 5
-		cost = 10
-		search_filters = {
-			FOCUS_FILTER_POLITICAL
-		}
-		prerequisite = {
-			focus = ISR_joint_control_of_jerusalem
-			focus = ISR_promise_gaza_to_palestine
-		}
 	}
 }

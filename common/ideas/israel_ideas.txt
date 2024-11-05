@@ -1,0 +1,36 @@
+ideas = {
+	country = {
+		israel_freedom_vote_passed = {
+			modifier = {
+				political_power_cost = 0.5
+				stability_weekly = -0.05
+			}
+		}
+		israel_growing_rebellion = {
+			modifier = {
+				stability_weekly = -0.1
+				weekly_manpower = 300
+				war_support_weekly = 0.02
+			}
+		}
+		israel_rebellion_strengthened = {
+			modifier = {
+				stability_weekly = -0.3
+				weekly_manpower = 400
+				war_support_weekly = 0.1
+			}
+			on_add = {
+				remove_ideas = israel_growing_rebellion
+			}
+			cancel = {
+				has_civil_war = yes
+			}
+		}
+		israel_rebellion_successful = {
+			modifier = {
+				political_power_cost = 0.5
+				stability_weekly = -0.05
+			}
+		}
+	}
+}

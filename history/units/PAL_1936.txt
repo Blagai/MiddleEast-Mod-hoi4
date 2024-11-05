@@ -1,0 +1,47 @@
+division_template = {
+    name = "Fasa'il Infantry Division"
+    regiments = {
+        infantry = { x = 0 y = 0 }
+        infantry = { x = 0 y = 1 }
+        infantry = { x = 1 y = 0 }
+        artillery_brigade = { x = 1 y = 1 }
+    }
+}
+
+division_template = {
+	name = "Fasa'il Expert Division"
+	regiments = {
+		infantry = { x = 0 y = 0 }
+        infantry = { x = 0 y = 1 }
+        infantry = { x = 1 y = 0 }
+        infantry = { x = 1 y = 0 }
+		artillery_brigade = { x = 2 y = 0 }
+		artillery_brigade = { x = 2 y = 1 }
+	}
+}
+
+units = {
+	division = {
+		name = "1st Fasa'il Infantry Division"
+		location = 4088
+		division_template = "Fasa'il Infantry Division"
+	}
+
+	division = {
+		name = "1st Fasa'il Expert Division"
+		location = 4088
+		division_template = "Fasa'il Expert Division"
+	}
+
+	division = {
+		name = "2nd Fasa'il Infantry Division"
+		location = 1086
+		division_template = "Fasa'il Infantry Division"
+	}
+
+	division = {
+		name = "3rd Fasa'il Infantry Division"
+		location = 7107
+		division_template = "Fasa'il Infantry Division"
+	}
+

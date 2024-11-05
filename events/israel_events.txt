@@ -1,0 +1,35 @@
+add_namespace = israel_event
+
+country_event = {
+	id = israel_event.1
+	title = israel_event.1.t
+	desc = israel_event.1.desc
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = israel_event.1.yes
+		ai_chance = {
+			factor = 80
+		}
+		ISR = {
+			add_to_variable = { 
+				var = israel_freedom_event_yes_count
+				value = 1 
+			}
+		}
+	}
+	
+	option = {
+		name = israel_event.1.no
+		ai_chance = {
+			factor = 50
+		}
+		ISR = {
+			add_to_variable = {
+				var = israel_freedom_event_no_count
+				value = 1
+			}
+		}
+	}
+}

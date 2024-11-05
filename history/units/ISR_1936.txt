@@ -3,10 +3,40 @@ division_template = {
     regiments = {
         infantry = { x = 0 y = 0 }
         infantry = { x = 0 y = 1 }
-        artillery_brigade = { x = 1 y = 0 }
+        infantry = { x = 1 y = 0 }
         artillery_brigade = { x = 1 y = 1 }
     }
     support = {
         artillery = { x = 0 y = 0 }
     }
+}
+
+division_template = {
+	name = "HaEtzel Infantry Division"
+	regiments = {
+		infantry = { x = 0 y = 0 }
+        infantry = { x = 0 y = 1 }
+        infantry = { x = 1 y = 0 }
+        infantry = { x = 1 y = 1 }
+	}
+}
+
+units = {
+	division = {
+		name = "1st Etzel Infantry Division"
+		location = 4206
+		division_template = "HaEtzel Infantry Division"
+	}
+
+	division = {
+		name = "2nd Etzel Infantry Division"
+		location = 11970
+		division_template = "HaEtzel Infantry Division"
+	}
+
+	division = {
+		name = "1st Hagana Infantry Division"
+		location = 4206
+		division_template = "HaHagana Infantry Division"
+	}
 }
