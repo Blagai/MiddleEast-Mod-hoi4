@@ -1,6 +1,6 @@
 state={
-	id=980
-	name="STATE_980" #Golan Heights
+	id=992
+	name="STATE_992" #Golan Heights
 	manpower = 283854
 	
 	state_category = town
@@ -15,7 +15,7 @@ state={
 	}
 
 	provinces={
-		13364
+		13367
 	}
 
 	local_supplies=0.0 

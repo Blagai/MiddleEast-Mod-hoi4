@@ -1,25 +1,25 @@
 state={
-	id=978
-	name="STATE_978" #Upper Negev
+	id=987
+	name="STATE_987" #Upper Negev
 	manpower = 283854
 	
 	state_category = rural
 
 	history={
-		owner = PAL
+		owner = ISR
 		buildings = {
 			infrastructure = 1
 			industrial_complex = 0
 		}
 		victory_points = {
-			7107 3
+			7176 2
 		}
 		add_core_of = PAL
 		add_core_of = ISR
 	}
 
 	provinces={
-		7107
+		7176 11970
 	}
 
 	local_supplies=0.0 

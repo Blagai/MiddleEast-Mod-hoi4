@@ -1,22 +1,25 @@
 state={
-	id=972
-	name="STATE_972" #Judah
-	manpower = 210523
+	id=990
+	name="STATE_990" #Upper Negev
+	manpower = 283854
 	
 	state_category = rural
 
 	history={
 		owner = PAL
 		buildings = {
-			infrastructure = 3
+			infrastructure = 1
 			industrial_complex = 0
+		}
+		victory_points = {
+			7107 3
 		}
 		add_core_of = PAL
 		add_core_of = ISR
 	}
 
 	provinces={
-		1086
+		7107
 	}
 
 	local_supplies=0.0 

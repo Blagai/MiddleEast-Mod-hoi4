@@ -5,4 +5,4 @@ tags={
 	"National Focuses"
 }
 name="The Cradle of Civilisation"
-supported_version="1.14.*"
+supported_version="1.15.*"

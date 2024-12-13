@@ -12,14 +12,14 @@ state={
 			industrial_complex = 1
 		}
 		victory_points = {
-			13363 15
+			13366 15
 		}
 		add_core_of = PAL
 		add_core_of = ISR
 	}
 
 	provinces={
-		13363
+		13366
 	}
 
 	local_supplies=0.0 

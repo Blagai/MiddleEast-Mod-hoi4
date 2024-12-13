@@ -1,6 +1,6 @@
 ﻿# Initial country settings for Palestine
 oob = "PAL_1936"
-capital = 974
+capital = 986
 set_research_slots = 3
 set_stability = 0.3
 set_war_support = 0.2

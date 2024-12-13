@@ -1,25 +1,22 @@
 state={
-	id=977
-	name="STATE_977" #Upper Negev
-	manpower = 283854
+	id=983
+	name="STATE_983" #Galilee
+	manpower = 240583
 	
-	state_category = city
+	state_category = rural
 
 	history={
 		owner = ISR
 		buildings = {
-			infrastructure = 1
+			infrastructure = 2
 			industrial_complex = 0
-		}
-		victory_points = {
-			13365 10
 		}
 		add_core_of = PAL
 		add_core_of = ISR
 	}
 
 	provinces={
-		13365
+		1065
 	}
 
 	local_supplies=0.0 

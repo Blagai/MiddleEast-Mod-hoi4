@@ -1,29 +1,25 @@
 state={
-	id=970
-	name="STATE_970" #Tel Aviv
-	manpower = 634147
+	id=988
+	name="STATE_988" #Lower Negev
+	manpower = 283854
 	
 	state_category = rural
 
 	history={
 		owner = ISR
 		buildings = {
-			infrastructure = 3 #was: 5
-			industrial_complex = 1
-			air_base = 2
-			4206 = {
-				naval_base = 3
-			}
+			infrastructure = 1
+			industrial_complex = 0
 		}
 		victory_points = {
-			4206 10
+			1015 1
 		}
 		add_core_of = PAL
 		add_core_of = ISR
 	}
 
 	provinces={
-		4206
+		1015
 	}
 
 	local_supplies=0.0 

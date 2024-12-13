@@ -1,6 +1,6 @@
 state={
-	id=974
-	name="STATE_974" #Gaza
+	id=986
+	name="STATE_986" #Gaza
 	manpower = 120432
 	
 	state_category = rural
