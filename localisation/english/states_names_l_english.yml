@@ -1,5 +1,6 @@
 ﻿l_english:
     STATE_454: "Jerusalem"
+    STATE_455:1 "Ma'an"
     STATE_982: "Tel Aviv"
     STATE_983: "Galilee"
     STATE_984: "Judah"
@@ -11,3 +12,12 @@
     STATE_990: "Samaria"
     STATE_991: "Western Negev"
     STATE_992: "Golan Heights"
+    STATE_993: "Aqaba"
+    STATE_994: "Al-Karak"
+    STATE_995: "Amman"
+    STATE_996: "Zarqa"
+    STATE_997: "Mafraq"
+    STATE_998: "Balqa"
+    STATE_999: "Jerash"
+    STATE_1000: "Irbid"
+    

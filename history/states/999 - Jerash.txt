@@ -1,0 +1,27 @@
+state={
+	id=999
+	name="STATE_999" #Jerash
+	manpower = 328463
+	
+	state_category = rural
+	
+	history={
+		owner = JOR
+		
+		buildings = {
+			infrastructure = 1
+		}
+		
+		victory_points = {
+			13373 1
+		}
+		
+		add_core_of = JOR
+	}
+	
+	provinces = {
+		13373 13374
+	}
+	
+	local_supplies=0.0 
+}

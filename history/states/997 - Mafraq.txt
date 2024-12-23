@@ -1,0 +1,32 @@
+state={
+	id=997
+	name="STATE_997" #Mafraq
+	manpower = 550231
+	
+	state_category = town
+	
+	history={
+		owner = JOR
+		
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+		}
+		
+		victory_points = {
+			4440 5
+		}
+		
+		victory_points = {
+			13372 2
+		}
+		
+		add_core_of = JOR
+	}
+	
+	provinces = {
+		4440 13372 4562
+	}
+	
+	local_supplies=0.0 
+}

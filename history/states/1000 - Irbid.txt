@@ -1,0 +1,33 @@
+state={
+	id=1000
+	name="STATE_1000" #Irbid
+	manpower = 1937462
+	
+	state_category = city
+	
+	history={
+		owner = JOR
+		
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 2
+			arms_factory = 2
+		}
+		
+		victory_points = {
+			13370 10
+		}
+		
+		victory_points = {
+			7170 2
+		}
+		
+		add_core_of = JOR
+	}
+	
+	provinces = {
+		13370 7170
+	}
+	
+	local_supplies=0.0 
+}

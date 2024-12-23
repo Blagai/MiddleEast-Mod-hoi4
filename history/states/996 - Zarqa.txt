@@ -1,0 +1,29 @@
+state={
+	id=996
+	name="STATE_996" #Zarqa
+	manpower = 1283746
+	
+	state_category = city
+	
+	history={
+		owner = JOR
+		
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 2
+			arms_factory = 1
+		}
+		
+		victory_points = {
+			1544 10
+		}
+		
+		add_core_of = JOR
+	}
+	
+	provinces = {
+		1544
+	}
+	
+	local_supplies=0.0 
+}

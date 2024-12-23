@@ -1,0 +1,28 @@
+state={
+	id=994
+	name="STATE_994" #Karak
+	manpower = 512942
+	
+	state_category = city
+	
+	history={
+		owner = JOR
+		
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+		}
+		
+		victory_points = {
+			10089 5
+		}
+		
+		add_core_of = JOR
+	}
+	
+	provinces = {
+		10089
+	}
+	
+	local_supplies=0.0 
+}

@@ -1,0 +1,27 @@
+state={
+	id=998
+	name="STATE_998" #Balqa
+	manpower = 427463
+	
+	state_category = rural
+	
+	history={
+		owner = JOR
+		
+		buildings = {
+			infrastructure = 1
+		}
+		
+		victory_points = {
+			7151 1
+		}
+		
+		add_core_of = JOR
+	}
+	
+	provinces = {
+		7151
+	}
+	
+	local_supplies=0.0 
+}
